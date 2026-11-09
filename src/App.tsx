@@ -13,6 +13,8 @@ function App() {
         <div className='nav-links'>
           <a href="#home">Home</a> 
           <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contacts">Contacts</a>
         </div>      
       </div>
     </header>
