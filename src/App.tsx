@@ -13,7 +13,6 @@ function App() {
         
       </div>
 
-      <div className="ticks"></div>
     </main>
   )
 }
