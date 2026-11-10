@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-    <header>
+    <header className='site-header'>
       <div className="navbar">
         <a href="/" className='brand'>
           Zakelyk
@@ -20,13 +20,29 @@ function App() {
     </header>
 
     <main>
-     
-      <h1>zakelyk</h1>
-      <p>under construction</p>
-      
-      <div className="Hero">
-        Hero
+     <section className='hero'>
+      <div className='hero-content'>
+        <p className='eyebrow'>
+          TECHNOLOGY & ENGINEERING
+        </p>
+        <h1>
+          Building systems.
+          <span> Solving real problems.</span>
+        </h1>
+        <p className='descriptions'>
+          A collection of projects and experiments around
+          software, networking, infrastructure, and
+          connected systems.
+        </p>
+        <div className='hero-actions'>
+          <a href='#projects'>Explore Projects</a>
+          <a href='#'>View on Github</a>
+        </div>
       </div>
+      <div className='terminal-panel'>
+        terminal panel
+      </div>
+     </section>
     </main>
     </>
     
